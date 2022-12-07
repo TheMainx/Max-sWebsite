@@ -11,8 +11,8 @@
     <h1>This website is handed over for hacking!</h1>
     <h2>For your safety, please leave this website.</h2>
     <?php
-    alert $_SERVER['HTTP_X_FORWARDED_FOR'];
-    alert date('d-m-Y, H:i:s');
+    echo $_SERVER['HTTP_X_FORWARDED_FOR'];
+    echo date('d-m-Y, H:i:s');
     ?>
 </body>
 </html>

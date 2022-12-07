@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test</title>
-    <form>
 <body>
     <h1>This is website</h1>
+    <?php
+    $ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
+    echo $ip
+    ?>
 </body>
 </html>

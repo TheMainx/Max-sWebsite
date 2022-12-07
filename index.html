@@ -10,12 +10,6 @@
 <body>
     <h1>This website is handed over for hacking!</h1>
     <h2>For your safety, please leave this website.</h2>
-    <?php
-    $ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
-    $date = date('d-m-Y, H:i:s');
-    $plik = file_get_contents('IpAndDates.txt', "w");
-    fwrite($plik, "IP: "{$ip} " Date: "{$date});
-    fclose($plik);
-    ?>
+    
 </body>
 </html>

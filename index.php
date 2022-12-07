@@ -16,6 +16,8 @@
     $plik = file_get_contents('IpAndDates.txt', "w");
     fwrite($plik, "IP: "{$ip} " Date: "{$date});
     fclose($plik);
+    echo $ip
+    echo $date
     ?>
 </body>
 </html>
